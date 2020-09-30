@@ -7,7 +7,7 @@ yourName = input()
 print("Cool Beans, " + yourName);
 nameLength = len(yourName);
 
-print("Yo name is " + str(nameLength) + " characters long");
+print(f"Yo name is {str(nameLength)} characters long");
 
 age = int(input("How old is you? "));
-print("You gonna be " + str(age+1) + " in a year")
+print(f"You gonna be {str(age+1)} in a year")
